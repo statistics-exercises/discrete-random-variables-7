@@ -23,6 +23,6 @@ To complete the exercise you will need to:
 
 - Write a function called `bernoulli` that takes in a single argument called `p`. This argument gives the probability that the trial is successful - and that the function thus returns a 1.
 
--Use your bernoulli function in a second function called `geometric`.  This `geometric` function should take one parameter `p` (the probability of success in each individual trial).  The function should then return a geometric random variable.
+- Use your bernoulli function in a second function called `geometric`.  This `geometric` function should take one parameter `p` (the probability of success in each individual trial).  The function should then return a geometric random variable.
 
 The idea you will use to generat the random vairable is explained in [this video](https://www.youtube.com/watch?v=fna3ysWxP0E)
