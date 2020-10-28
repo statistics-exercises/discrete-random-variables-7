@@ -1,8 +1,6 @@
-import matplotlib.pyplot as plt
-import numpy as np
 import scipy.stats as st
 import unittest
-import main
+from main import *
 
 class UnitTests(unittest.TestCase) :
     def test_geometric(self) : 
