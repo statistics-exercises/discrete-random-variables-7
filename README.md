@@ -1,6 +1,6 @@
 # The geometric random variable
 
-Let's now turn our attention to the second of the random variables that we have learned about this week - the geometric random variable.  We have learned that the geometric random variable measures the number of trials that we have to perform until we get a success.  It thus stands to reason that to generate such a variable we will need to perform multiple Bernoulli trials and stop generating Bernoulli trials once one of them is equal to one.
+Let's now turn our attention to the second of the random variables that we can generate from Bernoulli random variables - the geometric random variable.  We have learned that the geometric random variable measures the number of trials that we have to perform until we get a success.  It thus stands to reason that to generate such a variable we will need to perform multiple Bernoulli trials and stop generating Bernoulli trials once one of them is equal to one.
 
 We cannot use a for loop to generate a geometric random variable because, unlike the binomial random variables, we do not know how many trials we will have to perform in advance.  We thus need to use a while loop instead.  An example of a while loop is shown below:
 
