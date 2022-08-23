@@ -4,18 +4,18 @@ Let's now turn our attention to the second of the random variables that we can g
 
 We cannot use a for loop to generate a geometric random variable because, unlike the binomial random variables, we do not know how many trials we will have to perform in advance.  We thus need to use a while loop instead.  An example of a while loop is shown below:
 
-````
+```python
 var=0
 while var<10 : 
    var = var + 1
-````
+```
 
 This while loop runs until the variable called var is equal to 10 - in other words it runs while the variable var is less than 10.  You can do a similar thing with while loop with a function call in place of the variable as shown below:
 
-````
+```python
 while bernoulli(p)==0 : 
    var = var + 1
-````
+```
 
 In this case the loop will be entered into every time a call to the function bernoulli returns 0.
 
